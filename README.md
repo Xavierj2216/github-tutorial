@@ -25,8 +25,8 @@ lastly input your SSH key which is found in c9.io
 1) Now go ahead and start coding, make your own repository or directory 
 2) cd into the repository/repo and then make a file name README.md
 3) To make a repository on github, first go to github.com > top-right where the add icon is located > click the down-arrow > click new repository > name it the same name as the repo you made 
-> fill out the rest and then create your github repo > see the part where it states …or push an existing repository from the command line
-> copy the commands below it > paste it in your c9.io workspace, where your command line is located 
+--- > fill out the rest and then create your github repo > see the part where it states …or push an existing repository from the command line
+--- > copy the commands below it > paste it in your c9.io workspace, where your command line is located 
 4) Stay in your repository, type in git init to initialize your repo (only need to do it once unless you make a new repo in c9)
 5) From now on you just need to git push to push your snapshots into github, you don't need to type in git push -u origin master bc of the -u
 6) git remote add origin url is also something you do one time for each repo you make.
@@ -48,3 +48,22 @@ lastly input your SSH key which is found in c9.io
   * Git reset --hard HEAD~ : undo commit, add, and edit 
   * Undoing git push: First do git log to get the commit sha and q to quit git revert <sha code>
   * git reset --soft HEAD~: If you _only_ want to _add_ more changes to the previous commit, or change the commit message1
+---
+
+### Collaboration 
+* To **fork** (make a copy of the orginial project in github which allows you to push into because its your own copy) 
+  * a project in github you have to go to the page where the project is located > in the top-right where you see the word Fork > click it and wait for the process to finish, now you have successfully forked the project 
+* After forking the project you need to clone it, go to your own copy of the project you fork, in the middle-right you should see clone or download,
+  now click that > copy the url > go to your c9.io workspace > and paste it in the command line by typing _git clone_url
+* Now that you have fork and clone the project, you might want to suggest some edits, first make some edits that you suggest, add it, commit, and then push
+* You should see your changes in github by going into that specific repo you made the changes to
+* In the middle-left of that page you should see **New pull request** > click that > then click create pull request > fill in the parts if you want >
+    now make the pull request 
+* The edits will only effect the original project if the creator of the original project accept those changes, they will also need to do git pull for the changes to shows in there github
+ 
+
+
+
+
+
+
