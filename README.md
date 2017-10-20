@@ -24,13 +24,12 @@ lastly input your SSH key which is found in c9.io
 ## Repository Setup
 1) Now go ahead and start coding, make your own repository or directory 
 2) cd into the repository/repo and then make a file name README.md
-3) go to github, you should see the new repo you made, click to go into the repo > you should see clone or download in the middle-right click it > copy the url and go back to c9.io
- > type in git push -u origin master
-4) To make a repository on github, first go to github.com > top-right where the add icon is located > click the down-arrow > click new repository > name it the same name as the repo you made 
+3) To make a repository on github, first go to github.com > top-right where the add icon is located > click the down-arrow > click new repository > name it the same name as the repo you made 
 > fill out the rest and then create your github repo > see the part where it states …or push an existing repository from the command line
-> copy the commands below it > paste it in your c9.io workspace, where your command line is located (from now on you just need to git push to push your snapshots into github)
-5) Stay in your repository, type in git init to initialize your repo (only need to do it once unless you make a new repo in c9)
-
+> copy the commands below it > paste it in your c9.io workspace, where your command line is located 
+4) Stay in your repository, type in git init to initialize your repo (only need to do it once unless you make a new repo in c9)
+5) From now on you just need to git push to push your snapshots into github, you don't need to type in git push -u origin master bc of the -u
+6) git remote add origin url is also something you do one time for each repo you make.
 
 ---
 ## Workflow & Commands
