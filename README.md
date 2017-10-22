@@ -4,9 +4,9 @@ _by Xavier Jiang_
 
 ---
 ## Git vs. GitHub
-**Git**- a version control that keeps "snapshots" of code/work, it doesn't require Github
+###**Git**- a version control that keeps "snapshots" of code/work, it doesn't require Github
 ---
-**Github**- a open source that stores code in the cloud, helps you visually track changes, it requires Git 
+###**Github**- a open source that stores code in the cloud, helps you visually track changes, it requires Git 
 
 
 ---
@@ -18,6 +18,7 @@ _by Xavier Jiang_
 5) Now that you are connected, you can create your own workspace in c9.io, name it whatever you like and complete the setup
 6) The finally step is setting up your SSH key, go to [github](https://github.com/) > top-right where your icon is located > click the down-arrow > go to settings > click on SSH and GPG keys > click new SSH keys > 
 lastly input your SSH key which is found in c9.io
+
 (step to find SSH key in c9.io, go to c9.io log in > click gear icon > top-right > click SSH keys > copy the second SSH key, which is below Connect to your private git repository)
 
 ---
@@ -46,7 +47,7 @@ lastly input your SSH key which is found in c9.io
 * undo a edit/add/commit/push
   * Git reset HEAD~ : undo commit and add 
   * Git reset --hard HEAD~ : undo commit, add, and edit 
-  * Undoing git push: First do git log to get the commit sha and q to quit git revert <sha code>
+  * Undoing git push: First do git log to get the commit sha and q to quit, now type git revert <sha code> to undo git push
   * git reset --soft HEAD~: If you _only_ want to _add_ more changes to the previous commit, or change the commit message1
 ---
 
