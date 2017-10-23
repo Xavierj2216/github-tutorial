@@ -5,7 +5,8 @@ _by Xavier Jiang_
 ---
 ## Git vs. GitHub
 
-**Git**- a version control that keeps "snapshots" of code/work, it doesn't require Github
+**git** - a version control that keeps "snapshots" of code/work, it doesn't require Github
+
 ---
 **Github**- a open source that stores code in the cloud, helps you visually track changes, it requires Git 
 
