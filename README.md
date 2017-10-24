@@ -31,8 +31,8 @@ lastly input your SSH key which is found in c9.io
 --- > fill out the rest and then create your github repo > see the part where it states …or push an existing repository from the command line
 --- > copy the commands below it > paste it in your c9.io workspace, where your command line is located 
 4) Stay in your repository, type in git init to initialize git in your repo (only need to do it once unless you make a new repo in c9)
-5) git remote add origin url is also something you do one time for each repo you make. ti creates the connection between your local and remote repositories.
-6) For the first push you need to type git push -u origin master once you do that once, you just need to git push to push your snapshots into github, you don't need to type in git push -u origin master because of the -u
+5) git remote add origin url is also something you do one time for each repo you make to creates the connection between your local and remote repositories.
+6) For the first push you need to type git push -u origin master, once you do that you just need to type git push to push your snapshots into github, you don't need to type in git push -u origin master because of the -u
 
 ---
 ## Workflow & Commands
