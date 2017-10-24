@@ -14,7 +14,7 @@ _by Xavier Jiang_
 ---
 ## Initial Setup
 1) First you have to make a [github account](https://github.com/)
-2) complete the whole process of signing up 
+2) Complete the whole process of signing up 
 3) If you don't have a c9 account [press this to sign up](https://c9.io/) follow the steps to get a c9 account
 4) Next we have to link c9 with github by going into c9.io > top-right > press gear icon > connected services > find Github and press connect
 5) Now that you are connected, you can create your own workspace in c9.io, name it whatever you like and complete the setup
@@ -25,14 +25,14 @@ lastly input your SSH key which is found in c9.io
 
 ---
 ## Repository Setup
-1) Now go ahead and start coding, make your own repository or directory 
+1) Now go ahead and start coding, make your own directory 
 2) cd into the repository/repo and then make a file name README.md
 3) To make a repository on github, first go to github.com > top-right where the add icon is located > click the down-arrow > click new repository > name it the same name as the repo you made 
 --- > fill out the rest and then create your github repo > see the part where it states …or push an existing repository from the command line
 --- > copy the commands below it > paste it in your c9.io workspace, where your command line is located 
-4) Stay in your repository, type in git init to initialize your repo (only need to do it once unless you make a new repo in c9)
-5) From now on you just need to git push to push your snapshots into github, you don't need to type in git push -u origin master bc of the -u
-6) git remote add origin url is also something you do one time for each repo you make.
+4) Stay in your repository, type in git init to initialize git in your repo (only need to do it once unless you make a new repo in c9)
+5) git remote add origin url is also something you do one time for each repo you make. ti creates the connection between your local and remote repositories.
+6) For the first push you need to type git push -u origin master once you do that once, you just need to git push to push your snapshots into github, you don't need to type in git push -u origin master because of the -u
 
 ---
 ## Workflow & Commands
